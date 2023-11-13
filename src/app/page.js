@@ -102,7 +102,7 @@ const Page = () => {
             </div>
           </motion.div>
           <motion.div
-            className=" lg:w-[40rem] w-[20rem] h-[40rem]"
+            className=" lg:w-[40rem] lg:h-[40rem] w-[20rem] h-[20rem]"
             initial={{
               opacity: 0,
             }}
@@ -114,7 +114,10 @@ const Page = () => {
             
               src="me.jpg"
               alt=""
-              className=" lg:rounded-full rounded-t-full h-full w-full object-cover shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]"
+              className=" border-2 border-blue-100 lg:rounded-full rounded-full h-full w-full object-cover 
+            
+              shadow-yellow-200 shadow-2xl
+              "
             />
           </motion.div>
         </div>
@@ -122,5 +125,5 @@ const Page = () => {
     </>
   );
 };
-
+// shadow-[1px_20px_50px_rgba(8,_112,_184,_0.7)]
 export default Page;
