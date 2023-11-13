@@ -27,17 +27,16 @@ const Page = () => {
             </div>
             <div className="lg:text-[5rem] text-[3rem] text-cyan-300 font-extrabold">
               {/* impliment react teffex */}
-              <Glitch text={"SABYASACHI"} />
+              <Glitch text={"SUNIL REDDY"} />
             </div>
 
-            <div className="text-cyan-300 font-semibold lg:text-[4rem] text-[3rem]">
+            <div className="text-cyan-300 font-semibold lg:text-[3rem] text-[2rem]">
               a
               <span className="text-white font-extrabold">
                 <Typewriter
                   words={[
-                    " Developer ",
-                    " Designer",
-                    " Learner",
+                    " Web Developer ",
+                    " Blockchain Dev",
                     " Tech Enthusiast",
                   ]}
                   loop={0}
@@ -71,33 +70,33 @@ const Page = () => {
 
             <div className="flex flex-row items-center space-x-10 mt-6 lg:justify-start justify-center">
               {/*all the links here */}
-              <a href="https://www.instagram.com/sabyasachi_panda_/">
+              <a href="https://www.instagram.com/sunil.eth/">
                 <div className="text-3xl hover:text-pink-500">
                   <i class="fa-brands fa-instagram"></i>
                 </div>
               </a>
 
-              <a href="https://twitter.com/Roshan_panda007">
+              <a href="https://twitter.com/0xSunilReddy">
                 <div className="text-3xl hover:text-black">
                   <i class="fa-solid fa-x"></i>
                 </div>
               </a>
 
-              <a href="https://github.com/roshanpanda666">
+              <a href="https://github.com/0xSunday">
                 <div className="text-3xl hover:text-black">
                   <i class="fa-brands fa-github"></i>
                 </div>
               </a>
 
-              <a href="https://www.linkedin.com/in/sabyasachi-panda-351870256/">
+              <a href="https://www.linkedin.com/in/karri-sunil-reddy-209249216">
                 <div className="text-3xl hover:text-blue-500">
                   <i class="fa-brands fa-linkedin"></i>
                 </div>
               </a>
 
-              <a href="https://portfolio-of-sabyasachipanda.vercel.app/">
+              <a href="https://sunfolio.vercel.app/">
                 <div className="text-3xl hover:text-orange-300">
-                  <i class="fa-solid fa-person"></i>
+                  <i class="fa-solid fa-globe"></i>
                 </div>
               </a>
             </div>
@@ -112,9 +111,10 @@ const Page = () => {
             }}
           >
             <img
-              src="new.jpg"
+            
+              src="me.jpg"
               alt=""
-              className="scale-75 shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]"
+              className=" lg:rounded-full rounded-t-full h-full w-full object-cover shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]"
             />
           </motion.div>
         </div>
