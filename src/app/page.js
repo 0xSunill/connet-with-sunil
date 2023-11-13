@@ -116,7 +116,7 @@ const Page = () => {
               alt=""
               className=" border-2 border-blue-100 lg:rounded-full rounded-full h-full w-full object-cover 
             
-              shadow-yellow-200 shadow-2xl
+            shadow-cyan-300 shadow-2xl
               "
             />
           </motion.div>
