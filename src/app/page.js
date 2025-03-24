@@ -70,19 +70,19 @@ const Page = () => {
 
             <div className="flex flex-row items-center space-x-10 mt-6 lg:justify-start justify-center">
               {/*all the links here */}
-              <a href="https://www.instagram.com/sunil.eth/">
+              <a href="https://www.instagram.com/0xsunill/">
                 <div className="text-3xl hover:text-pink-500">
                   <i class="fa-brands fa-instagram"></i>
                 </div>
               </a>
 
-              <a href="https://twitter.com/0xSunilReddy">
+              <a href="https://twitter.com/0xSunill">
                 <div className="text-3xl hover:text-black">
                   <i class="fa-solid fa-x"></i>
                 </div>
               </a>
 
-              <a href="https://github.com/0xSunday">
+              <a href="https://github.com/0xSunill">
                 <div className="text-3xl hover:text-black">
                   <i class="fa-brands fa-github"></i>
                 </div>
