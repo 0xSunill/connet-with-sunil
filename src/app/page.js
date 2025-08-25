@@ -94,7 +94,7 @@ const Page = () => {
                 </div>
               </a>
 
-              <a href="https://sunfolio.vercel.app/">
+              <a href="https://0xsunill-portfolio.vercel.app/">
                 <div className="text-3xl hover:text-orange-300">
                   <i class="fa-solid fa-globe"></i>
                 </div>
